@@ -32,8 +32,8 @@ namespace Hashtable
             Console.WriteLine("Displaying after add operation");
             Console.WriteLine("Frequency of words");
             hashTabe.Display();
-            string s = "or";
-            hashTabe.Remove(s);
+            //string s = "or";
+            hashTabe.Remove("avoidable");
             Console.WriteLine("--------------------------");
             hashTabe.Display();
         }
