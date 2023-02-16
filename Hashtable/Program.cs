@@ -10,7 +10,9 @@ namespace Hashtable
     {
         static void Main(string[] args)
         {
-            string paragraph = "To be or not to be";
+            //string paragraph = "To be or not to be";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            Console.WriteLine(paragraph);
             CountNumbOfOccurence(paragraph);
             Console.ReadLine(); 
         }
@@ -32,7 +34,7 @@ namespace Hashtable
             hashTabe.Display();
             string s = "or";
             hashTabe.Remove(s);
-            Console.WriteLine("After removed an item {0}", s);
+            Console.WriteLine("--------------------------");
             hashTabe.Display();
         }
     }
